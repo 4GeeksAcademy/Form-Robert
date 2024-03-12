@@ -15,39 +15,39 @@
         <div class="card-header bg-tertiary"><h4>Método de pago</h4></div>
         <form>
           <div class="card-body bg-tertiary bg-opacity-10">
-            <div class="alert alert-danger text-dark bg-opacity-5" role="alert">
+            <div class="alert alert-danger text-dark bg-opacity-5 fw-semibold" role="alert">
               Faltan campos por rellenar.
             </div>
             <div class="row d-flex g-3">
               <div class="col-5">
-                <label for="cardNumber" class="form-label">Tarjeta</label>
+                <label for="cardNumber" class="form-label fw-semibold">Tarjeta</label>
                 <input type="text" class="form-control" id="cardNumber" placeholder="XXXX XXXX XXXX XXXX" maxlength="16"/>
               </div>
               <div class="col-3">
-                <label for="cvc" class="form-label">Código CVC</label>
+                <label for="cvc" class="form-label fw-semibold">Código CVC</label>
                 <input type="text" class="form-control" id="cvc" placeholder="000" maxlength="3"/>
               </div>
               <div class="col-4">
-                <label for="amount" class="form-label">Monto</label>
+                <label for="amount" class="form-label fw-semibold">Monto</label>
                 <div class="input-group">
-                  <span class="input-group-text">€</span>
+                  <span class="input-group-text fw-semibold">€</span>
                   <input type="text" class="form-control" id="amount" aria-label="Amount" placeholder="0.00"/>
                 </div>
               </div>
               <div class="col-6">
-                <label for="firstName" class="form-label">Nombre</label>
+                <label for="firstName" class="form-label fw-semibold">Nombre</label>
                 <input type="text" class="form-control" id="firstName" />
               </div>
               <div class="col-6">
-                <label for="lastName" class="form-label">Apellidos</label>
+                <label for="lastName" class="form-label fw-semibold">Apellidos</label>
                 <input type="text" class="form-control" id="lastName" />
               </div>
               <div class="col-5 col-lg-6">
-                <label for="city" class="form-label">Ciudad</label>
+                <label for="city" class="form-label fw-semibold">Ciudad</label>
                 <input type="text" class="form-control" id="city" />
               </div>
               <div class="col-3">
-                <label for="selectState" class="form-label">Provincia</label>
+                <label for="selectState" class="form-label fw-semibold">Provincia</label>
                 <select class="form-select" aria-label="select-state-label" id="selectState">
                   <option selected>Escoge provincia</option>
                   <option value="1">Alava</option>
@@ -103,11 +103,11 @@
                 </select>
               </div>
               <div class="col-4 col-lg-3">
-                <label for="postalCode" class="form-label">Código postal</label>
+                <label for="postalCode" class="form-label fw-semibold">Código postal</label>
                 <input type="text" class="form-control" id="postalCode" />
               </div>
               <div class="col-8 col-lg-8 col-xxl-4 px-0 px-sm-2">
-                <label>Método de pago</label>
+                <label class="fw-semibold">Método de pago</label>
                 <div class="bg-secondary mt-3 ps-3 pb-2 pt-3 px-1 d-flex justity-content-between rounded-3">
                   <div class="form-check form-check-inline ms-lg-3 ms-1">
                     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="mastercard" value="option1"/>
@@ -115,7 +115,7 @@
                   </div>
                   <div class="form-check form-check-inline ms-lg-3 ms-0">
                     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="visa" value="option2"/><label class="form-check-label" for="visa">
-                      <i class="fa-brands fa-cc-visa  fs-3 bg-secondary text-light"></i></label>
+                      <i class="fa-brands fa-cc-visa fs-3 bg-secondary text-light"></i></label>
                   </div>
                   <div class="form-check form-check-inline ms-lg-3 ms-0">
                     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="amazon" value="option3"/>
@@ -129,7 +129,7 @@
                  </div>
               </div>
               <div class="col-12 col-lg-12 col-xxl-6 offset-xxl-2">
-                <label for="exampleFormControlTextarea1" class="form-label">Comentario</label>
+                <label for="exampleFormControlTextarea1" class="form-label fw-semibold">Comentarios</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 <div id="coments" class="form-text">
                   Añada comentarios adicionales sobre su compra.
@@ -139,9 +139,9 @@
           </div>
           <div class="card-footer text-body-secondary d-flex justify-content-end bg-tertiary"
           >
-            <input type="reset" class="btn btn-secondary me-2" value="Cancelar"/>
+            <input type="reset" class="btn btn-secondary me-2 fw-semibold" value="Cancelar"/>
            
-            <input type="submit" class="btn btn-primary" value="Enviar" />
+            <input type="submit" class="btn btn-primary fw-semibold" value="Enviar" />
             
           </div>
         </form>
